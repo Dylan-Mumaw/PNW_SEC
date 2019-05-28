@@ -1,0 +1,99 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../StylePhotos/PoliceStation.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+form{
+    width:300px;
+}
+
+.maincontainer {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+    height: 415px;
+    box-shadow: 4px 5px 3px 2px #0009;
+    background: #f6f6f6;
+}
+
+.textbox {
+    background-color: #fff;
+    border-radius: 2px;
+    width: 250px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 2px;
+    box-shadow: 1px 1px 2px 1px #9D9EA0 inset;
+    border: none;
+    margin-top: 5px;
+    padding-left:5px;
+}
+
+.validatestyle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: red
+}
+
+.button {
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    background: #fff;
+    margin: 1px;
+}
+
+.button:hover{
+    background: #d5d5d5;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    color: #323232;
+    letter-spacing: .5px;
+}
+
+.imageitem{
+    margin-bottom:280px;
+    position:absolute;
+}
+
+
+.lblUserName {
+    position: relative;
+    bottom: -30px;
+}
+
+
+.buttonitem{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.pagecontainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
