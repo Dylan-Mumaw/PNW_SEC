@@ -5,9 +5,9 @@ html {
 }
 
 body {
-    background-color: #eaebf2;
     font-family: 'Open Sans', sans-serif;
     /*max-height: 100%;*/
+    background-color: #5b6870;
 }
 
 .background {
@@ -72,9 +72,9 @@ body {
 }
 
 .bordercontainer {   
-    box-shadow: 10px 10px 4px -5px rgba(138,138,138,0.49);
+    /*! box-shadow: 10px 10px 4px -5px rgba(138,138,138,0.49); */
     padding: 3px;
-    background-color: #6191A1;
+    background-color: #b1810b;
     border-radius: 5px;
 }
 
@@ -89,10 +89,10 @@ body {
 }
 
 .bigImageContainer{
-    background-color:transparent;
+    background-color:#fff;
     height: 90vh;
     box-sizing: border-box;
-    border: 5px solid #6191a1;
+    border: 5px solid #b1810b;
     border-radius: 5px;
     overflow: hidden;
    
@@ -123,7 +123,7 @@ table.blueTable tr{
     }
 
 table.blueTable th {
-    background:#6191a1;
+    background:#b1810b;
     color: white;
     cursor: default;
     height: 20px;
@@ -160,7 +160,7 @@ table.blueTable tr:last-child:hover {
 .buttonContainer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 .buttonContainerBelow{
@@ -178,14 +178,15 @@ table.blueTable tr:last-child:hover {
     white-space: normal;
     padding: 0;
     background-color: white;
-    border: 1px solid #6191a1;
+    border: 1px solid #b1810b;
     cursor: pointer;
+    margin-right: 5px;
 }
 
     .button:hover {
         transform: translate3d(0,-4px,0);
         box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
-        background-color: #6191a1;
+        background-color: #b1810b;
         color: white;
     }
  
@@ -196,10 +197,10 @@ table.blueTable tr:last-child:hover {
 .gallery{
     width:100%;
     box-sizing:border-box;
-    background-color: white;
+    background-color: #fff;
     display: flex;
     justify-content: center;
-    border: 5px solid #6191a1;
+    border: 5px solid #b1810b;
     margin-top: 10px;
     flex-wrap: wrap;
 }
@@ -207,14 +208,14 @@ table.blueTable tr:last-child:hover {
     width:200px;
     height:200px;
     margin: 10px;
-    border: 2px solid #6191a1;
+    border: 2px solid #B1810B;
     border-radius: 5px;
 }
 
     .galleryButton:hover {
         transform: translate3d(0,-4px,0);
         box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
-        background-color: #6191a1;
+        background-color: #B1810B;
         color: white;
     }
     
