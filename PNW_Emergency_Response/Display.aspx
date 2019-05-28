@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="DisplayPageFunctions.js"></script>
 
-    <title>Michigan City First Responders</title>
+    <title>Purdue Northwest Emergency Response</title>
 </head>
 <body>
     <form id="searchForm" runat="server">
